@@ -30,10 +30,11 @@ while(list_points < points.length){
 let injured = [true, false, true];
 let list_injured = 0;
 while(list_injured < injured.length){
-    if (injured[i] === true){
+    if (injured[list_injured] === false){
         console.log(injured[list_injured]);
-        list_injured = list_injured + 1;
     }
+        list_injured = list_injured + 1;
+    
     }
     
     
